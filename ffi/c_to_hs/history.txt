@@ -1,0 +1,1000 @@
+   39  ../../../../classes/cs421/bin/submit
+   40  vi README
+   41  ./exec.sh | less
+   42  vi README
+   43  ls
+   44  ../../../../classes/cs421/bin/submit 5 env.sml semant.sml README main.sml 
+   45  logout
+   46  cd cs521/as5
+   47  ./exec.sh | less
+   48  qq
+   49  ./exec.sh | less
+   50  vi semant.sml
+   51  ./exec.sh | less
+   52  vi semant.sml
+   53  ./exec.sh | less
+   54  vi semant.sml
+   55  ./exec.sh | less
+   56  vi semant.sml
+   57  ./exec.sh | less
+   58  vi semant.sml
+   59  ./exec.sh | less
+   60  vi semant.sml
+   61  ./exec.sh | less
+   62  vi semant.sml
+   63  ./exec.sh 
+   64  vi semant.sml
+   65  ./exec.sh 
+   66  ./exec.sh | less
+   67  vi semant.sml
+   68  ./exec.sh | less
+   69  vi semant.sml
+   70  ./exec.sh | less
+   71  vi semant.sml
+   72  ./exec.sh | less
+   73  vi semant.sml
+   74  ./exec.sh | less
+   75  vi semant.sml
+   76  ./exec.sh | less
+   77  vi semant.sml
+   78  ./exec.sh | less
+   79  vi semant.sml
+   80  ./exec.sh | less
+   81  vi semant.sml
+   82  vi tp
+   83  vi t
+   84  vi types.sml 
+   85  vi absyn.sml 
+   86  vi semant.sml
+   87  ./exec.sh | less
+   88  ls
+   89  vi tiger.grm.old 
+   90  mv tiger.grm tiger.grm.mine
+   91  cp ../../../../classes/cs421/as/as5/tiger.grm .
+   92  ./exec.sh | less
+   93  mv tiger.grm.mine tiger.grm
+   94  ./exec.sh | less
+   95  vi tiger.grm
+   96  ./exec.sh | less
+   97  vi semant.sml
+   98  ./exec.sh | less
+   99  vi absyn.sml 
+  100  vi semant.sml
+  101  ./exec.sh | less
+  102  vi semant.sml
+  103  ./exec.sh | less
+  104  vi semant.sml
+  105  ./exec.sh | less
+  106  vi semant.sml
+  107  ./exec.sh | less
+  108  vi semant.sml
+  109  ./exec.sh | less
+  110  vi semant.sml
+  111  ./exec.sh | less
+  112  vi semant.sml
+  113  ./exec.sh | less
+  114  vi semant.sml
+  115  ./exec.sh | less
+  116  vi semant.sml
+  117  ./exec.sh | less
+  118  vi semant.sml
+  119  ./exec.sh | less
+  120  vi semant.sml
+  121  ./exec.sh | less
+  122  vi semant.sml
+  123  ./exec.sh | less
+  124  vi semant.sml
+  125  ./exec.sh | less
+  126  vi semant.sml
+  127  ./exec.sh | less
+  128  vi semant.sml
+  129  ./exec.sh | less
+  130  vi semant.sml
+  131  ./exec.sh | less
+  132  vi semant.sml
+  133  ./exec.sh | less
+  134  vi semant.sml
+  135  ./exec.sh | less
+  136  vi semant.sml
+  137  ./exec.sh 
+  138  vi semant.sml
+  139  vi absyn.sml 
+  140  vi semant.sml
+  141  vi env.sml
+  142  vi semant.sml
+  143  vi env.sml
+  144  vi absyn.sml 
+  145  vi semant.sml
+  146  vi absyn.sml 
+  147  vi semant.sml
+  148  ./exec.sh 
+  149  vi env.sml
+  150  vi semant.sml
+  151  ./exec.sh 
+  152  vi semant.sml
+  153  ./exec.sh 
+  154  vi semant.sml
+  155  ./exec.sh 
+  156  vi semant.sml
+  157  ./exec.sh 
+  158  vi semant.sml
+  159  ./exec.sh 
+  160  vi semant.sml
+  161  ./exec.sh 
+  162  vi semant.sml
+  163  ls
+  164  mkdir ffi
+  165  cd ffi
+  166  ls
+  167  vi callerback.h
+  168  vi callerback.c
+  169  vi CallBacker.hs
+  170  ls
+  171  vi make
+  172  vi Makefile
+  173  make
+  174  vi Makefile 
+  175  make
+  176  ls
+  177  ./CallBacker 
+  178  vi CallBacker.hs 
+  179  mkdir callback_into_haskell_from_c
+  180  mv * callback_into_haskell_from_c/
+  181  cd callback_into_haskell_from_c/
+  182  ls
+  183  cd ..
+  184  ls
+  185  mv callback_into_haskell_from_c/ callback_into_hs
+  186  ls
+  187  cd callback_into_hs/
+  188  ls
+  189  vi callerback.c 
+  190  vi callerback.h 
+  191  vi CallBacker.hs
+  192  vi callerback.h 
+  193  vi callerback.c 
+  194  make
+  195  vi CallBacker.hs
+  196  make
+  197  ./CallBacker 
+  198  vi CallBacker
+  199  vi CallBacker.hs
+  200  make
+  201  ./CallBacker 
+  202  ls
+  203  mkdir hs_to_c
+  204  mkdir c_to_hs
+  205  cp * c_to_hs/
+  206  mv * hs_to_c/
+  207  ls
+  208  cd hs_to_c/
+  209  ls
+  210  mv c_to_hs/ ..
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd c_to_hs/
+  215  ls
+  216  mv callerback.c callbacker.c
+  217  mv callerback.h callbacker.h
+  218  mv CallBacker.hs CallerBack.hs
+  219  vi callbacker.h
+  220  vi callbacker.c
+  221  ls
+  222  rm CallBacker
+  223  ls
+  224  rm *.o
+  225  ls
+  226  rm CallBacker.hi
+  227  rm CallBacker_stub.h 
+  228  ls
+  229  gcc callbacker.c
+  230  vi callbacker.c
+  231  gcc callbacker.c
+  232  ls
+  233  ./a.out 
+  234  vi callbacker.c
+  235  ./a.out 
+  236  gcc callbacker.c
+  237  ./a.out 
+  238  ./a.out 1
+  239  vi callbacker.c
+  240  gcc callbacker.c
+  241  ./a.out 4
+  242  ls
+  243  vi CallerBack.hs 
+  244  ghc CallerBack.hs 
+  245  ls
+  246  ghci CallerBack
+  247  ghci CallerBack.hs
+  248  vi CallerBack.hs
+  249  ghci CallerBack.hs
+  250  vi CallerBack.hs
+  251  ghci CallerBack.hs
+  252  vi CallerBack
+  253  vi CallerBack.hs 
+  254  ls
+  255  vi callbacker.c
+  256  ls
+  257  rm *
+  258  ls
+  259  gedit Safe.hs
+  260  vi Safe.hs
+  261  logout
+  262  ls
+  263  cd ffi/
+  264  ls
+  265  cd callback_into_hs/
+  266  ls
+  267  mv * ..
+  268  ls
+  269  cd ..
+  270  ls
+  271  rmdir callback_into_hs/
+  272  ls
+  273  cd c_to_hs/
+  274  ls
+  275  vi Safe.hs
+  276  vi test.c
+  277  ghc -c -o Safe.hs 
+  278  ghc -c -O Safe.hs 
+  279  ls
+  280  ghc -c -O Safe.hs 
+  281  vi Safe.hs 
+  282  ghc -c -O Safe.hs 
+  283  vi Safe.hs 
+  284  ghc -c -O Safe.hs 
+  285  ls
+  286  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  287  vi test.c 
+  288  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  289  vi test.c 
+  290  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  291  vi test.c 
+  292  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  293  vi test.c 
+  294  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  295  vi test.c 
+  296  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  297  vi FFI.h
+  298  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  299  vi test.c 
+  300  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  301  ghc -optc-O test.c FFI.h Safe.o Safe_stub.h -o test
+  302  ls
+  303  vi test.c 
+  304  rm FFI.h 
+  305  vi test.c 
+  306  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  307  ls
+  308  vi FFI.hs
+  309  wget https://github.com/ghc/ghc/blob/master/includes/HsFFI.h
+  310  ls
+  311  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  312  vi HsFFI.h 
+  313  rm HSFFI.h
+  314  ;s
+  315  ls
+  316  rm HsFFI.h 
+  317  wget 
+  318  wget https://raw.github.com/ghc/ghc/master/includes/HsFFI.h
+  319  ls
+  320  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  321  wget https://raw.github.com/ghc/ghc/master/includes/ghcconfig.h
+  322  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  323  wget https://raw.github.com/ghc/ghc/master/includes/ghcautoconf.h
+  324  ls
+  325  rm 
+  326  ls
+  327  rm HsFFI.h 
+  328  ls
+  329  rm ghcconfig.h 
+  330  ls
+  331  logout
+  332  ls
+  333  cd ffi/
+  334  ls
+  335  cd c_to_hs/
+  336  ls
+  337  vi FFI.hs 
+  338  vi test.c 
+  339  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  340  vi test.c 
+  341  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  342  vi test.c 
+  343  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  344  history
+  345  ghc -c -O Safe.hs 
+  346  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  347  vi Safe_stub.h 
+  348  ls
+  349  vi FFI.hs
+  350  vi Safe_stub.h 
+  351  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  352  la
+  353  vi FFI.hs 
+  354  mv FFI.hs FFI.h
+  355  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  356  ls
+  357  vi test.c 
+  358  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  359  ls
+  360  ghc -optc-O test.c Safe.o Safe_stub.h FFI. h-o test
+  361  ghc -optc-O test.c Safe.o Safe_stub.h FFI.h -o test
+  362  ls
+  363  man ghc
+  364  vi test.c 
+  365  ghc -optc-O test.c Safe.o Safe_stub.h FFI.h -o test
+  366  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  367  vi test.c 
+  368  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  369  vi test.c 
+  370  ghc -c -O Safe.hs 
+  371  ls
+  372  rm Safe_stub.h 
+  373  ghc -c -O Safe.hs 
+  374  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  375  ls
+  376  rm Safe.hi
+  377  rm test.o 
+  378  ls
+  379  rm Safe.o
+  380  ls
+  381  ghc -c -O Safe.hs 
+  382  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  383  ghc -info
+  384  ghc --help
+  385  man hsc2hs
+  386  man ghc
+  387  pushd
+  388  pushd .
+  389  cd
+  390  ls
+  391  cd ..
+  392  ls
+  393  cd .
+  394  cd ..
+  395  ls
+  396  cd usr/
+  397  ls
+  398  cd local/
+  399  ls
+  400  cd lib
+  401  ls
+  402  ls -al
+  403  cd ..
+  404  cd lib64/
+  405  ls
+  406  cd ..
+  407  ls
+  408  cd bin/
+  409  ls
+  410  cd
+  411  ls
+  412  cd ../..
+  413  ls
+  414  cd ..
+  415  ls
+  416  cd lib
+  417  ls
+  418  cd
+  419  ls
+  420  cd ffi
+  421  ls
+  422  cd c_to_hs/
+  423  ls
+  424  wget http://www.haskell.org/ghc/download_ghc_6_10_1 .
+  425  ls
+  426  ls -al
+  427  rm download_ghc_6_10_1 
+  428  man git
+  429  git clone git://github.com/ghc/ghc.git
+  430  ls
+  431  cd ghc/
+  432  ls
+  433  cd includes/
+  434  ls
+  435  -optc-O test.c Safe.o Safe_stub.h -o test
+  436  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  437  ls
+  438  cd ..
+  439  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  440  ghc -i ghc-optc-O test.c Safe.o Safe_stub.h -o test
+  441  ghc -i ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  442  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  443  ls
+  444  logout
+  445  ls
+  446  cd ffi/
+  447  ls
+  448  cd c_to_hs/
+  449  ls
+  450  history
+  451  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  452  ghc -i ghc/ -optc-O test.c Safe.o Safe_stub.h -o test
+  453  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  454  cp ghc/includes/HsFFI.h .
+  455  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  456  vi HsFFI.h 
+  457  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  458  rm HsFFI.h 
+  459  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  460  cd ghc
+  461  ./sync-all get
+  462  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  463  cd ..
+  464  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  465  vi Safe
+  466  vi Safe_stub.h 
+  467  ghc -i ghc/includes/HsFFI.h -optc-O test.c Safe.o Safe_stub.h -o test
+  468  perl boot
+  469  cd ghc
+  470  perl boot
+  471  ./configure 
+  472  make -j3
+  473  ./configure 
+  474  cd ..
+  475  cp ghc/includes/HsFFI.h .
+  476  ls
+  477  vi HsFFI.h 
+  478  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  479  vi Safe_stub.h 
+  480  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  481  vi HsFFI.h 
+  482  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  483  vi HsFFI.h 
+  484  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  485  vi Safe.h
+  486  ls
+  487  vi Safe.hs
+  488  vi test.c 
+  489  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  490  vi test.c 
+  491  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  492  vi test.c 
+  493  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  494  vi test.c 
+  495  vi Safe_stub.h 
+  496  lsl
+  497  ls
+  498  vi Safe.hi
+  499  vi Safe_stub.h 
+  500  vi Safe.hs 
+  501  vi test.c 
+  502  ls
+  503  rm FFI.h 
+  504  rm *.o
+  505  ls
+  506  rm*.hi
+  507  rm *.hi
+  508  ls
+  509  rm Safe_stub.h 
+  510  ls
+  511  rm HsFFI.h 
+  512  ls
+  513  vi test.c 
+  514  ghc -c -o Safe.hs 
+  515  ls
+  516  ghc -c -O Safe.hs 
+  517  ls
+  518  ghc -optc-O test.c Safe.o Safe_stub.h -o test
+  519  logout
+  520  ls
+  521  cd ffi
+  522  ls
+  523  cd c_to_hs/
+  524  ls
+  525  mail -a test.c mark24@comcast.net
+  526  mail -a Safe.hs mark24@comcast.net
+  527  logout
+  528  cd cs421
+  529  ls
+  530  cd ..
+  531  cd cs521
+  532  ls
+  533  mkdir as6
+  534  mkdir as7
+  535  cd as6
+  536  ls
+  537  cp ../../../../classes/cs421/as/as6/* .
+  538  cp -r ../../../../classes/cs421/as/as6/* .
+  539  ls
+  540  vi README.as6 
+  541  cd RegAlloc/
+  542  ls
+  543  cd ..
+  544  ls
+  545  vi README.as6 
+  546  cd RegAlloc/
+  547  ls
+  548  cd ..
+  549  cd tests/
+  550  ls
+  551  cd ..
+  552  ls
+  553  vi README.as6 
+  554  l
+  555  cd cs521
+  556  ls
+  557  cd as6
+  558  ls
+  559  cd RegAlloc/
+  560  ls
+  561  cd ..
+  562  vi README.as6
+  563  ls
+  564  cd RegAlloc/
+  565  vi makegraph.sml 
+  566  ;s
+  567  ls
+  568  vi graph.s
+  569  vi graph.sig 
+  570  vi makegraph.sml 
+  571  ls
+  572  vi regalloc.sml 
+  573  la
+  574  ls
+  575  cd ..
+  576  ls
+  577  vi reg-std.sig 
+  578  vi main.sml 
+  579  vi RegAlloc/
+  580  cd RegAlloc/
+  581  ls
+  582  vi flowgraph.sml 
+  583  ls
+  584  vi makegraph.sml 
+  585  vi liveness.sml 
+  586  vi makegraph.sml 
+  587  vi liveness.sml 
+  588  vi regalloc.sml 
+  589  vi ../README.as6 
+  590  cd cs521
+  591  ls
+  592  cd as6
+  593  ls
+  594  cd RegAlloc/
+  595  ls
+  596  vi makegraph.sml 
+  597  cd cs521
+  598  ls
+  599  cd as6
+  600  ls
+  601  cp ../as5/exec.sh .
+  602  ls
+  603  ./exec.sh 
+  604  vi exec.sh 
+  605  vi main.sml 
+  606  vi exec.sh 
+  607  ./exec.sh 
+  608  vi RegAlloc/makegraph.sml 
+  609  ./exec.sh 
+  610  cp -r ../../../../classes/cs421/as/as6/ .
+  611  ls
+  612  ./exec.sh 
+  613  vi README.as6 
+  614  vi RegAlloc/makegraph.sml 
+  615  vi README.as6 
+  616  vi RegAlloc/makegraph.sml 
+  617  vi main.sml 
+  618  sml
+  619  ls
+  620  vi exec.sh 
+  621  ./exec.sh 
+  622  ls
+  623  vi RegAlloc/makegraph.sml 
+  624  ./exec.sh 
+  625  vi RegAlloc/makegraph.sml 
+  626  ./exec.sh 
+  627  vi RegAlloc/makegraph.sml 
+  628  ./exec.sh 
+  629  vi RegAlloc/makegraph.sml 
+  630  ./exec.sh 
+  631  cd RegAlloc/
+  632  ls
+  633  vi ../README.as6 
+  634  vi ../README
+  635  sml
+  636  ls
+  637  cd cs521
+  638  ls
+  639  cd as6
+  640  ls
+  641  cd RegAlloc/
+  642  ls 
+  643  cd ..
+  644  ls
+  645  vi main.sml
+  646  pushd .
+  647  cd /c/cs421/as/Public/6a/CG3/
+  648  ls
+  649  vi codegen.sml
+  650  popd
+  651  ls
+  652  vi main.sml
+  653  pushd .
+  654  cd /c/cs421/as/Public/6a/CG3/
+  655  ls
+  656  vi codegen.sml
+  657  popd
+  658  vi codegen.sml
+  659  vi main.sml
+  660  vi README
+  661  cp * /c/cs421/as/Public/6b/RA9
+  662  cp * -r /c/cs421/as/Public/6b/RA9
+  663  logout
+  664  cd cs521/as6
+  665  sml
+  666  ls
+  667  vi exec.sh 
+  668  ./exec.sh 
+  669  cd RegAlloc/
+  670  ls
+  671  vi makegraph.sml 
+  672  .././exec.sh 
+  673  cd ..
+  674  ./exec.sh 
+  675  vi exec.sh 
+  676  ./exec.sh 
+  677  vi RegAlloc/makegraph.sml 
+  678  ./exec.sh 
+  679  vi RegAlloc/makegraph.sml 
+  680  ./exec.sh 
+  681  vi README.as6 
+  682  pushd .
+  683  cd ../../../../../c/cs421/as/
+  684  ls
+  685  cd as6
+  686  ls
+  687  cd RegAlloc/
+  688  ls
+  689  vi makegraph.sml 
+  690  popd
+  691  ls
+  692  cp -r ../../../../../c/cs421/as/as6 .
+  693  ls
+  694  ./exec.sh 
+  695  vi README.as6 
+  696  ls
+  697  pushd .
+  698  cd ../../../../../c/cs421/as/as6
+  699  ls
+  700  vi Groups 
+  701  cd ..
+  702  ls
+  703  cd Public/
+  704  ls
+  705  cd 61
+  706  cd 6a
+  707  ls
+  708  ls -r
+  709  la *
+  710  la * | less
+  711  ls
+  712  cd CG1/
+  713  ls
+  714  cd ..
+  715  ls
+  716  ls -al
+  717  q
+  718  cd RA9/
+  719  ls
+  720  cd ..
+  721  ls
+  722  vd RA9/
+  723  cd RA9/
+  724  mv * -r ~/cs521/as6/ .
+  725  cp * ~/cs521/as6/ .
+  726  cp -r ~/cs521/as6/ .
+  727  ls
+  728  cd as6
+  729  ls
+  730  cd ..
+  731  ls
+  732  la -al
+  733  :q
+  734  cd ..
+  735  ls
+  736  cd cur/
+  737  ls
+  738  ls -al
+  739  cd ..
+  740  ls
+  741  vi foo 
+  742  ls -al
+  743  pushd .
+  744  cd
+  745  ls
+  746  cd cs521
+  747  ls
+  748  cd as6
+  749  ls
+  750  vi README.as6 
+  751  vi RegAlloc/regalloc.sml 
+  752  vi README.as6 
+  753  vi RegAlloc/regalloc.sml 
+  754  pushd .
+  755  popd
+  756  ls
+  757  cd ..
+  758  ls
+  759  cd as1
+  760  ls
+  761  cd ..
+  762  cd /c/cs421/as/Public/6a/
+  763  ls -al
+  764  cd RA9
+  765  ls
+  766  cd as6
+  767  ls
+  768  vi README
+  769  popd
+  770  ls
+  771  cd RegAlloc/
+  772  ls
+  773  cd ..
+  774  ls
+  775  cd RegAlloc/
+  776  ls
+  777  vi regalloc.sml 
+  778  vi ../README
+  779  cd ..
+  780  ls
+  781  vi ../README
+  782  vi README
+  783  mv README /c/cs421/as/Public/6a/RA9/
+  784  vi /c/cs421/as/Public/6a/RA9/README 
+  785  cd RegAlloc/
+  786  ls
+  787  vi regalloc.sml 
+  788  cd ..
+  789  ./exec.sh 
+  790  vi RegAlloc/regalloc.sml 
+  791  ./exec.sh 
+  792  cp -r ~/cs521/as6/ .
+  793  ls
+  794  rm -r as6
+  795  ls
+  796  cd RegAlloc/
+  797  ls
+  798  vi regalloc.sml 
+  799  cd ..
+  800  vi README.as6 
+  801  cp /c/cs421/as/Public/6a/RA9/README README
+  802  ls
+  803  cd RegAlloc/re
+  804  vi RegAlloc/regalloc.sml 
+  805  cp RegAlloc/regalloc.sml /c/cs421/as/Public/6a/RA9/as6/RegAlloc/regalloc.sml 
+  806  cd RegAlloc/
+  807  ls
+  808  pushd .
+  809  cd /c/cs421/as/Public/6a/
+  810  ls
+  811  ls -al
+  812  cd CG3
+  813  ls
+  814  vi codegen.sml
+  815  cd RA9
+  816  cd ..
+  817  cd RA9
+  818  ls
+  819  mv as6/* .
+  820  ls
+  821  cd as6
+  822  ls
+  823  cd as6
+  824  ls
+  825  cd ..
+  826  ls
+  827  rm -r as6
+  828  ls
+  829  cd ..
+  830  ls
+  831  ls -al
+  832  cd CG4
+  833  ls
+  834  vi codegen.sml 
+  835  cd ..
+  836  ls
+  837  cd CG4
+  838  ls
+  839  vi register.sml 
+  840  vi codegen.sml 
+  841  popd
+  842  ls
+  843  vi regalloc.sml 
+  844  cd ..
+  845  ls
+  846  vi reg-std.sig 
+  847  vi RegAlloc/regalloc.sml 
+  848  cd CodeGen/
+  849  ls
+  850  cd ..
+  851  vi ItreeGen/
+  852  cd ItreeGen/
+  853  ls
+  854  vi temp.sml 
+  855  popd
+  856  cd /c/cs421/as/Public/
+  857  ls
+  858  cd 6a
+  859  ls -al
+  860  cd IG2
+  861  ls
+  862  vi README 
+  863  ls
+  864  vi semant.sml 
+  865  vi README 
+  866  vi semant.sml 
+  867  cd ..
+  868  ls
+  869  cd CG3
+  870  ls
+  871  vi README 
+  872  ls
+  873  vi register.sml 
+  874  vi codegen.sml
+  875  cd
+  876  ls
+  877  cd cs521
+  878  ls
+  879  cd as6
+  880  ls
+  881  vi RegAlloc/regalloc.sml 
+  882  cd RegAlloc/
+  883  ls
+  884  vi flowgraph.sml 
+  885  vi liveness.sml 
+  886  vi makegraph.sml 
+  887  vi regalloc.sml 
+  888  vi ../ItreeGen/temp.sml 
+  889  cd ../ItreeGen/
+  890  ls
+  891  vi ../RegAlloc/regalloc.sml 
+  892  vi temp.sml 
+  893  ls
+  894  cd ..
+  895  ls
+  896  cd RegAlloc/
+  897  ls
+  898  vi makegraph.sml 
+  899  pushd .
+  900  cd /c/cs421/as/as6/
+  901  ls
+  902  cd ..
+  903  cd Public/
+  904  ls
+  905  cd 6a
+  906  ls
+  907  cd CG3
+  908  ls
+  909  vi README 
+  910  vi codegen.sml
+  911  popd
+  912  ls
+  913  vi makegraph.sml 
+  914  cd /c/cs421/as/as6/
+  915  ls
+  916  cd ..
+  917  cd Public/
+  918  ls
+  919  cd cur/
+  920  ls
+  921  cd CG3
+  922  ls
+  923  vi register.sml 
+  924  cp codegen.sml ~/cs521/as6/CodeGen/
+  925  cp register.sml ~/cs521/as6/CodeGen/
+  926  popd
+  927  pushd .
+  928  cd ~/cs521/as6/
+  929  ./exec.sh 
+  930  vi RegAlloc/regalloc.sml 
+  931  vi RegAlloc/makegraph.sml 
+  932  ./exec.sh 
+  933  ls
+  934  vi main.sml 
+  935  vi ex
+  936  vi exec.sh 
+  937  cp ../as5/exec.sh exec.sh2
+  938  vi exec.sh2 
+  939  rm exec.sh2 
+  940  cp ../as5/main.sml main.sml2
+  941  vi main.sml
+  942  vi main.sml2 
+  943  vi main.sml
+  944  vi main.sml2 
+  945  vi exec.sh
+  946  ./exec.sh 
+  947  vi main.sml
+  948  vi main.sml2 
+  949  vi main.sml
+  950  cd RegAlloc/
+  951  ls
+  952  vi regalloc.sml 
+  953  vi ../main.sml
+  954  vi regalloc.sml 
+  955  vi ../main.sml
+  956  vi regalloc.sml 
+  957  vi ../main.sml
+  958  ls
+  959  history
+  960  cd ..
+  961  cp * /c/cs421/as/Public/
+  962  cp * /c/cs421/as/Public/6b/RA9/
+  963  cp -r * /c/cs421/as/Public/6b/RA9/
+  964  ls
+  965  cd RegAlloc/
+  966  vi regalloc.sml 
+  967  cd ..
+  968  vi main.sml
+  969  cd RegAlloc/
+  970  vi regalloc.sml 
+  971  ls
+  972  vi makegraph.sml 
+  973  cd ..
+  974  vi main.sml
+  975  cd ../..
+  976  ls
+  977  cd cs530
+  978  ls
+  979  cd 5
+  980  ls
+  981  cd ..
+  982  ls
+  983  cd ..
+  984  cd Euterpea/
+  985  ls
+  986  cd Euterpea/
+  987  ls
+  988  cp HW4.lhs HW8.lhs
+  989  vi HW8.lhs 
+  990  gedit HW8.lhs 
+  991  logout
+  992  cd Euterpea/
+  993  ls
+  994  cd Euterpea/
+  995  ls
+  996  mail -a Safe.hs mark24@comcast.net
+  997  mail -a HW8.lhs mark24@comcast.net
+  998  logout
+  999  ls
+ 1000  logout
+ 1001  ls
+ 1002  cd ffi/
+ 1003  ls
+ 1004  cd hs_to_c/
+ 1005  ls
+ 1006  cd ..
+ 1007  cd c_to_hs/
+ 1008  ls
+ 1009  cd ..
+ 1010  cd hs_to_c/
+ 1011  ls
+ 1012  ./CallBacker 
+ 1013  vi callerback.c 
+ 1014  vi CallBacker.hs 
+ 1015  cd ..
+ 1016  ls
+ 1017  cd c_to_hs/
+ 1018  ls
+ 1019  vi test.c 
+ 1020  l
+ 1021  cd ghc/
+ 1022  ls
+ 1023  cd ..
+ 1024  ls
+ 1025  man ghc
+ 1026  cd ,,
+ 1027  cd ..
+ 1028  vi README
+ 1029  ls
+ 1030  cd c_to_hs/
+ 1031  ls
+ 1032  chmod a+x *.o
+ 1033  ./test.o 
+ 1034  chmod a-x *.o
+ 1035  vi test.c 
+ 1036  history
+ 1037  less history > history.txt
+ 1038  history > history.txt
